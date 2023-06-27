@@ -3,7 +3,7 @@ References for set up:</br>
 - https://www.josean.com/posts/terminal-setup (https://www.youtube.com/watch?v=CF1tMjvHDRA)</br>
 - https://www.engineeringwithutsav.com/blog/spice-up-your-macos-terminal (https://www.youtube.com/watch?v=0MiGnwPdNGE)</br>
 - [POMODORO](https://www.youtube.com/watch?v=GfQjJBtO-8Y) (https://gist.github.com/bashbunni/f6b04fc4703903a71ce9f70c58345106)</br>
-https://gist.github.com/bashbunni/f6b04fc4703903a71ce9f70c58345106
+
 Todo:
 - Setup neovim config
 - Setup tmux config
