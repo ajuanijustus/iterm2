@@ -109,3 +109,18 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# POMODORO
+# A pop up notification and sound alert (using the built-in sounds for macOS)
+# Requires https://github.com/caarlos0/timer to be installed
+# Requires https://github.com/julienXX/terminal-notifier to be installed
+# Mac setup for pomo
+alias work="timer 25m && terminal-notifier -message 'Pomodoro'\
+        -title 'Work Timer is up! Take a Break 😊'\
+        -appIcon '~/Pictures/pumpkin.png'\
+        -sound Crystal"
+        
+alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
+        -title 'Break is over! Get back to work 😬'\
+        -appIcon '~/Pictures/pumpkin.png'\
+        -sound Crystal"
